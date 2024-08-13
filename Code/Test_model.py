@@ -14,7 +14,7 @@ from tensorflow.keras import layers
 from keras.layers import Dense, Flatten, Rescaling
 
 
-my_xray_cnnmodel = keras.models.load_model("D:/xray_model.h5")
+my_xray_cnnmodel = keras.models.load_model("../xray_model.h5")
 
 # Defining an image path from the "pred" folder:
 image_path = r"D:\Tan's data\STUDY____________\RapidMiner\lungxray\new\new2.jpg"
