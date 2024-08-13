@@ -17,7 +17,7 @@ from keras.layers import Dense, Flatten, Rescaling
 my_xray_cnnmodel = keras.models.load_model("../xray_model.h5")
 
 # Defining an image path from the "pred" folder:
-image_path = r"D:\Tan's data\STUDY____________\RapidMiner\lungxray\new\new2.jpg"
+image_path = r"..lungxray\new\new2.jpg"
 
 # Preprocessing the image to 224x224 size and predicting the label:
 image = tf.keras.preprocessing.image.load_img(image_path, target_size=(224, 224))
