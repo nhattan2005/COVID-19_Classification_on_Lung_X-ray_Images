@@ -13,9 +13,9 @@ from keras.models import Sequential
 from tensorflow.keras import layers
 from keras.layers import Dense, Flatten, Rescaling
 
-data_dir_train = pathlib.Path('../input/lung_xray/train')
-data_dir_test = pathlib.Path('../input/lung_xray/test')
-data_dir_val = pathlib.Path('../input/lung_xray/val')
+data_dir_train = pathlib.Path(r"..\lungxray\train")
+data_dir_test = pathlib.Path(r"..\lungxray\test")
+data_dir_val = pathlib.Path(r"..\lungxray\val")
 
 
 print("Number of Images in Train:", len(list(data_dir_train.glob("*/*"))))
