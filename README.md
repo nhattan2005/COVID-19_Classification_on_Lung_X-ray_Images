@@ -21,3 +21,12 @@ You can install these dependencies using pip:
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib
+
+/path/to/dataset/
+    train/
+        class_1/
+        class_2/
+    test/
+        class_1/
+        class_2/
+
