@@ -5,7 +5,7 @@ This project implements a Convolutional Neural Network (CNN) using Keras and Ten
 ## Project Structure
 
 - `Lung_xray_classification.py`: The main script for training and evaluating the CNN model.
-- **Data**: The dataset should be structured into `train` and `test` directories, each containing subdirectories for each class (e.g., `Normal`, `Pneumonia`).
+- **Data**: The dataset should be structured into `train` and `test` directories, each containing subdirectories for each class 
 
 ## Dependencies
 
@@ -21,12 +21,4 @@ You can install these dependencies using pip:
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib
-
-/path/to/dataset/
-    train/
-        class_1/
-        class_2/
-    test/
-        class_1/
-        class_2/
 
